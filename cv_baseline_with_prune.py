@@ -11,7 +11,7 @@ from tqdm import tqdm
 from nuscenes.nuscenes import NuScenes
 
 # ---- config: set this to your local mini dataset folder ----
-NUSCENES_ROOT = r"D:\PROGRAMMING\RESEARCH\AV-hazard\dataset"
+NUSCENES_ROOT = r"D:\PROGRAMMING\university\masters\trajectory-prediction\dataset"
 NUSCENES_VERSION = "v1.0-mini"
 
 H = 6   # future horizon (steps)

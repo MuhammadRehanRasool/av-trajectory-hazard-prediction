@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 
 # -------- CONFIG --------
-PREDICTIONS_PKL = r"D:\PROGRAMMING\RESEARCH\AV-hazard\Contrastive-Future-Trajectory-Prediction\outputs\nuScenes_VEHICLE_pred.pkl"
-GROUND_TRUTH_PKL = r"D:\PROGRAMMING\RESEARCH\AV-hazard\dataset\v1.0-mini\sample_annotation.json"  # adjust if you have another GT
+PREDICTIONS_PKL = r"D:\PROGRAMMING\university\masters\trajectory-prediction\Contrastive-Future-Trajectory-Prediction\outputs\nuScenes_VEHICLE_pred.pkl"
+GROUND_TRUTH_PKL = r"D:\PROGRAMMING\university\masters\trajectory-prediction\dataset\v1.0-mini\sample_annotation.json"  # adjust if you have another GT
 # Horizon & samples (optional, used in ADE/FDE)
 H = 6
 K = 5
